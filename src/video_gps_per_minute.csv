@@ -1,0 +1,2 @@
+frame_index,timestamp_ms,timestamp_hms,minute,latitude,longitude,rel_alt,abs_alt,drone_yaw_deg,drone_pitch_deg,drone_roll_deg,gimbal_yaw_deg,gimbal_pitch_deg,gimbal_roll_deg
+1,0,00:00:00.000,0,31.240786,34.787997,0.0,298.109,,,,,,
