@@ -3,7 +3,7 @@ from app.ui import build_main_view
 
 
 def main(page: ft.Page) -> None:
-    page.title = "DJI Video → CSV"
+    page.title = "DJI SRT → CSV"
     page.scroll = "auto"
     page.window_width = 900
     page.window_height = 600
