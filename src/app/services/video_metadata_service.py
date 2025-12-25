@@ -20,14 +20,14 @@ class VideoMetadataService:
 
     @staticmethod
     def _ms_to_hms(ms: int) -> str:
-        """Convert milliseconds to HH:MM:SS,mmm format"""
+        """Convert milliseconds to HH:MM:SS:mmm format"""
         total_seconds = ms // 1000
         milliseconds = ms % 1000
         seconds = total_seconds % 60
         total_minutes = total_seconds // 60
         minutes = total_minutes % 60
         hours = total_minutes // 60
-        return f"{hours:02d}:{minutes:02d}:{seconds:02d},{milliseconds:03d}"
+        return f"{hours:02d}:{minutes:02d}:{seconds:02d}:{milliseconds:03d}"
     
     def _extract_float(self, pattern: re.Pattern, text: str) -> Optional[float]:
         """Extract float value from text using regex"""
